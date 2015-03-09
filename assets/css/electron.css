@@ -1,0 +1,127 @@
+body, html{
+    background-color: #000000;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.container{
+    margin: auto;
+}
+
+.bar{
+    height: 100px;
+    width: 9999px;
+    margin-left: -2000px;
+    border: none;
+    margin-bottom : -50px;
+    z-index: -10;
+}
+
+.header{
+    height: 200px;
+    padding-top: 70px;
+}
+
+.dotted{
+    border-top : 3px dashed white;
+    margin: 0;
+    padding: 0;
+    height : 0px;
+}
+
+huge {
+    font-size: 150px;
+    padding-top: 200px;
+}
+
+pink{
+    color: #fe54fe;
+}
+
+.pink{
+    background-color: #fe54fe;
+}
+
+.green{
+    background-color: #00ff00;
+}
+
+
+.bgdarkblue{
+    background-color: #0000bb;
+}
+
+.bglightblue{
+    background-color: #9999ff;
+    margin: 15px;
+}
+
+.question{
+}
+
+.question h1{
+    font-size: 72px;
+     color: #000000;
+}
+
+.question p{
+    color: #000000;
+    background-color: #ffffff;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+.choice{
+    margin: 0 20px;
+    padding: 0 60px;
+    color: #000000;
+}
+
+.choice input{
+    margin: 20px;
+}
+
+index {
+    vertical-align: super;
+    font-size: 50%;
+    line-height: 60%;
+}
+
+.span12 p, .span12 h1{
+    padding : 40px 40px;
+}
+
+#banner{
+    margin: auto;
+}
+
+#preface{
+    border-top: 3px solid #ffff00;
+    border-bottom: 3px solid #ffff00;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#preface p {
+    color: #ffff00;
+    font-size: 32px;
+    padding: 60px 40px;
+    line-height: 42px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 900px !important;
+    }
+
+    .span12 {
+        width: 900px;
+    }
+
+    .span6 {
+        width: 450px;
+    }
+}
