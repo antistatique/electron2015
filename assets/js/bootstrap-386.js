@@ -8,8 +8,6 @@ $(function(){
     $(window).bind('scroll', function(e) {
       var func, off = $(window).scrollTop();
 
-      console.log(off, last, off < last ? "up" : "down");
-
       // this determines whether the user is intending to go up or down.
       func = off < last ? "floor" : "ceil";
 
@@ -24,8 +22,8 @@ $(function(){
         Math[func](off / character.height) * character.height
       );
 
-    }); 
-  }  
+    });
+  }
 
   function loading() {
 
@@ -42,7 +40,7 @@ $(function(){
 
       cursor = document.createElement('div'),
       // If the user specified that the visibility is hidden, then we
-      // start at the first pass ... otherwise we just do the 
+      // start at the first pass ... otherwise we just do the
       // cursor fly-by
       pass = ($(document.body).css('visibility') == 'visible') ? 1 : 0,
       height = $(window).height(),
@@ -52,7 +50,7 @@ $(function(){
       // it helps keep the cool sequence there while not making it waste too much time.
       rounds = (height * width / speedFactor),
       column = width, row = height - character.height;
-      
+
     wrap.id = "wrap386";
     bar.id = "bar386";
     cursor.id = "cursor386";
