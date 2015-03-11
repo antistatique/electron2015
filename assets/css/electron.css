@@ -18,8 +18,7 @@ h2 {
 
 .bar {
     height: 100px;
-    width: 9999px;
-    margin-left: -2000px;
+    width: 100%;
     border: none;
     margin-bottom: -75px;
     margin-top: 50px;
