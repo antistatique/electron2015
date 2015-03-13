@@ -1,0 +1,30 @@
+form {
+  background: $electron-blue;
+  padding: 10px;
+  p {padding: 20px 65px;}
+  h3,.h4 {
+    color: $electron-blue;
+    margin: 1em 0 1.5em 0;
+  }
+  hr {
+    margin: 0;
+    border-top: 3px dashed $electron-white;
+    background: $electron-cyan;
+  }
+}
+
+fieldset {
+  background: $electron-cyan;
+  color: $electron-black;
+  padding: 30px 45px;
+  p {
+    background: $electron-white;
+    padding: 20px;
+  }
+}
+
+input {
+  border: none !important;
+  box-shadow: none !important;
+  border-bottom: 3px solid $electron-black !important;
+}
