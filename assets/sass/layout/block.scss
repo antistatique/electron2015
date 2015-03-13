@@ -31,6 +31,7 @@
 .well {
   border: none !important;
   padding: 30px;
+  a {color: $electron-yellow;}
   &.well-magenta {background: $electron-magenta;}
   &.well-blue {background: $electron-blue;}
   &.well-shadow {box-shadow: 30px 30px 0px $electron-blue;}
