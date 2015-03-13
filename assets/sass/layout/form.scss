@@ -11,6 +11,9 @@ form {
     border-top: 3px dashed $electron-white;
     background: $electron-cyan;
   }
+  @media only screen and (max-width: 767px) {
+    p {padding: 20px 10px;}
+  }
 }
 
 fieldset {
@@ -20,6 +23,9 @@ fieldset {
   p {
     background: $electron-white;
     padding: 20px;
+  }
+  @media only screen and (max-width: 767px) {
+    padding: 10px;
   }
 }
 
