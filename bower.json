@@ -1,0 +1,10 @@
+{
+  "name": "electron2015",
+  "devDependencies": {
+    "html5shiv": "3.7.2",
+    "respond": "1.4.2",
+    "Cortana": "~1.2.7",
+    "bootstrap-sass-official": "~3.3.0",
+    "jquery": "~2.1.1"
+  }
+}
