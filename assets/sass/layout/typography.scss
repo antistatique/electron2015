@@ -1,5 +1,5 @@
 body {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   @media only screen and (max-width: 767px) {
     font-size: floor(($font-size-base * 0.8));
   }
